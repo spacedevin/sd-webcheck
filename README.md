@@ -7,7 +7,7 @@ It will check a website and scan for a specific string to see if the page is wor
 Lets say that you want to check the website http://devin.la/blog
 This page uses the database, some libs, and some other stuff.
 Now lets say someone committed a change to one of the bases classes the broke this page.
-Looking for </html>, we can know if we got a fatal error or not.
+Looking for &lt;/html&gt;, we can know if we got a fatal error or not.
 
 WebCheck accepts 3 config parameters
 

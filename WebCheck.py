@@ -1,5 +1,8 @@
 # WebCheck
 
+# WebCheck is a Python script and plugin written to be using with Server Density.
+# It will check a website and scan for a specific string to see if the page is working properly.
+
 # Lets say that you want to check the website http://devin.la/blog
 # This page uses the database, some libs, and some other stuff.
 # Now lets say someone commited a change to one of the bases clases the broke this page.
@@ -10,6 +13,7 @@
 # webcheck_find: the regex to .search
 # webcheck_result: the quantifier of the result. if it is true, matching is true, otherwise false
 # 	this way you can search for either something like </html>, or somethng like Fatal Error
+
 
 from urllib import urlopen
 import re
