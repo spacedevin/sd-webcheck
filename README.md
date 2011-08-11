@@ -13,7 +13,7 @@ WebCheck accepts 3 config parameters
 
 * url: the url to check
 * find: the regex to .search
-* result: the quantifier of the result. if it is true, matching is true, otherwise false. this way you can search for either something like </html>, or somethng like Fatal Error
+* result: the quantifier of the result. if it is true, matching is true, otherwise false. this way you can search for either something like &lt;/html&gt;, or something like Fatal Error
 
 You can create as many entries in the sd-agent config as you want. Here is a sample config entry
 
